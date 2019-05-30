@@ -54,7 +54,6 @@ def add1(numb1,numb2):
     print(numb1+numb2)
 
 
-
 # 这是main方法,可以直接执行,main方法下面不能有其他方法
 if __name__ == '__main__':
     #打印
