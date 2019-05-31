@@ -50,7 +50,6 @@ def for_demo7():
         if i ==2:
             continue
         print(i)
-
+open(dizhi wenjianmin,a+ )
 if __name__ == '__main__':
-
-     for_demo7()
+    for_demo3()
