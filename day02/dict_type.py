@@ -29,16 +29,29 @@ def dict_zhuanhuan():
 # 题: 新建一个字典变量,里面有两个键值对,通过key访问一个值,删除一个键值对,
 # 添加一个键值对,更改任意一个值,再新建一个字典,将两个合并
 def dict_homework():
-    bdict = {"studentid":"7","name":"hews"}
-    print(bdict["studentid"])
-    a=bdict.pop("studentid")
-    print(bdict)
-    bdict["class"] = 1905
-    print(bdict)
-    bdict["class"] = 1904
-    cdict ={"gade":60,"teacher":"li"}
-    ddict = dict(bdict,**cdict)
-    print(ddict)
+    # bdict = {"studentid":"7","name":"hews"}
+    # print(bdict["studentid"])
+    # a=bdict.pop("studentid")
+    # print(bdict)
+    # bdict["class"] = 1905
+    # print(bdict)
+    # bdict["class"] = 1904
+    # cdict ={"gade":60,"teacher":"li"}
+    # ddict = dict(bdict,**cdict)
+    # print(ddict)
+    a1= {"studentid":"7","name":"hews"}
+
+    b1={'m':7,'s':9}
+    print(a1["studentid"])
+    print(a1.pop("studentid"))
+    print(a1)
+    a1.update(b1)
+    print(a1)
+    c1=dict(a1,**b1)
+    print(a1)
+    a1['d']=6
+    print(a1)
+
+
 if __name__ == '__main__':
     dict_homework()
-
